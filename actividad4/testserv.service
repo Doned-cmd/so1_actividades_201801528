@@ -1,0 +1,10 @@
+[Unit]
+Description=My Script
+
+[Service]
+Type=simple
+ExecStart=/media/script/test.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
